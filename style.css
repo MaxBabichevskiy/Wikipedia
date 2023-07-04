@@ -1,0 +1,120 @@
+    html,
+    body {
+        height: 100%;   
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header {
+        background-color: rgb(221, 222, 224);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    input[type="text"] {
+        width: 200px;
+        padding: 5px;
+        float: right;
+        border: 1px solid #ccc;
+    }
+
+        ul.nav{
+            margin-right: 0px;
+            padding-right: 0px;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .nav li{
+            float: right;
+        }
+
+        ul.nav li{
+            display: block;
+            width: 170px;
+        }
+
+    #content {
+        flex: 1;
+        width: 1863px;
+        margin: 0 auto;
+        margin-left: 0px;
+        background-color: rgb(218, 233, 240);
+        padding: 20px;
+    }
+
+    #sidebar {
+        float: left;
+        width: 200px;
+        height: 800px;
+        padding: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+        background-color: rgb(224, 227, 238);
+    }
+
+        .welcome {
+            float: left;
+            margin-left: 25px;
+            width: 1600px;
+            height: 100px;
+            padding: 10px;
+            background-color: rgb(243, 243, 243);
+        }
+
+                .favorite {
+                    float: left;
+                    margin-left: 25px;
+                    margin-top: 40px;
+                    width: 775px;
+                    height: 300px;
+                    padding: 10px;
+                    background-color: rgb(243, 243, 243);
+                }
+
+                                .youknow {
+                                    float: left;
+                                    margin-left: 25px;
+                                    margin-top: 40px;
+                                    width: 775px;
+                                    height: 300px;
+                                    padding: 10px;
+                                    background-color: rgb(243, 243, 243);
+                                }
+
+   #headCont {
+       border-bottom: 1px solid #000;
+       padding: 10px;
+       text-align: center;
+   }
+   #round{
+    list-style-type: circle;
+   }
+   ul {
+       list-style-type: none;
+   }
+   li{
+        color: blue;
+   }
+
+    #main {
+        float: right;
+        width: 75%;
+        padding: 10px;
+    }
+
+    #footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: auto;
+    }
